@@ -270,7 +270,7 @@ shap==0.40.0
 Shapely 
 simplegeneric==0.8.1
 singledispatch 
-sip==4.19.13
+
 six 
 sklearn==0.0
 slicer==0.0.7
