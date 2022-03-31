@@ -295,7 +295,6 @@ statsmodels
 sympy 
 
 tabulate==0.8.9
-TBB==0.2
 tblib 
 tenacity==8.0.1
 tensorboard==2.8.0
