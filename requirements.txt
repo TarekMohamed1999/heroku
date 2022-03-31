@@ -92,7 +92,7 @@ google-api-core==2.7.1
 google-api-python-client==2.42.0
 google-auth==2.6.2
 google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.5.1
+google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 googleapis-common-protos==1.56.0
 googlemaps==4.6.0
@@ -297,9 +297,9 @@ sympy
 tabulate==0.8.9
 tblib 
 tenacity==8.0.1
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
+tensorboard
+tensorboard-data-server
+tensorboard-plugin-wit
 tensorflow==2.8.0
 tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
