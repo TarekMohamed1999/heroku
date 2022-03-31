@@ -48,14 +48,6 @@ cloudpickle
 cmdstanpy==0.9.68
 colorama 
 colorlog==6.6.0
-conda==4.12.0
-conda-build==3.21.8
-conda-content-trust
-conda-pack
-conda-package-handling 
-conda-repo-cli 
-conda-token 
-conda-verify==3.4.2
 contextlib2 
 convertdate==2.4.0
 cookiecutter 
