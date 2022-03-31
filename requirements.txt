@@ -22,7 +22,7 @@ backports.functools-lru-cache
 backports.shutil-get-terminal-size
 backports.tempfile
 backports.weakref==1.0.post1
-backports.zoneinfo==0.2.1
+
 beautifulsoup4
 binaryornot
 bitarray 
@@ -206,7 +206,6 @@ polyline==1.4.0
 poyo 
 prometheus-client 
 prompt-toolkit 
-prophet==1.0.1
 protobuf==3.19.4
 psutil 
 ptyprocess 
@@ -233,7 +232,6 @@ pyparsing==3.0.7
 pyproj==3.3.0
 pyrsistent
 PySocks
-pystan==2.19.1.1
 pytest==6.2.5
 python-dateutil
 python-lsp-black 
