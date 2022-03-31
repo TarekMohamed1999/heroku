@@ -149,7 +149,6 @@ lazy-object-proxy
 libarchive-c 
 libclang==13.0.0
 lightgbm==3.3.2
-llvmlite==0.37.0
 locket 
 LunarCalendar==0.0.9
 lxml 
