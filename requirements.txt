@@ -10,6 +10,6 @@ numpy
 flask_bootstrap
 sklearn
 scikit-learn
-warnings
+
 pickle
 tensorflow
