@@ -14,4 +14,4 @@ pickleshare
 cloudpickle 
 tensorflow-cpu
 gunicorn
-lightlgbm
+lightgbm
