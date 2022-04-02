@@ -12,4 +12,4 @@ sklearn
 scikit-learn
 pickleshare
 cloudpickle 
-tensorflow
+tensorflow-cpu
