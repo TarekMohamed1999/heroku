@@ -54,7 +54,10 @@ def city_importance(city):
 
 def get_mean_price(city):
     mean_prices = pd.read_csv("models/city_mean_prices.csv")
-    mean_price = mean_prices[mean_prices["City"] == city]["Price"]
+    if(city in list(mean_prices["City"].value_counts().index)):
+    	mean_price = mean_prices[mean_prices["City"] == city]["Price"]
+    else:
+    	mean_price = mean_prices["Price"].mean()
     return mean_price
 
 

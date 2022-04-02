@@ -37,7 +37,8 @@ def results():
     #Convering to a dataframe
     query = {"Year": [year], "Mileage":[mileage], "City": [city] ,"State":[state], "Make":[make], "Model":[model]}
     query_df = pd.DataFrame(query)
-
+    print(query_df)
+	
 
     with open("models/DT.pkl", "rb") as dt:
         DT = pickle.load(dt)
@@ -54,18 +55,28 @@ def results():
 
     if encoding ==  1:
         # Getting Usage Level
+        print(query_df)
         query_df["Usage_level"] = query_df["Mileage"].apply(utils.get_mile_range)
         # Getting City Imporane Level
+        print(query_df)
         query_df["City_imporatnce"] = query_df["City"].apply(utils.city_importance)
         # Get Mean Price on the city
+        print(query_df)
         query_df["City_mean_price"] = query_df["City"].apply(utils.get_mean_price)
         # State Importance
+        print(query_df)
         query_df["State_imporatnce"] = query_df["State"].apply(utils.state_importance)
         # Company popularity
+        print(query_df)
         query_df["Brand_popularity"] = query_df["Make"].apply(utils.popullariy)
         # Model Level
+        print(query_df)
         query_df["Model_level"] = query_df["Model"].apply(utils.model_level)
         #Bofore One Hot encoding
+        print(query_df["Make"])
+        
+        
+        
         query_df = query_df.drop(columns = ["Make", "Model", "City"])
         print(query_df)
         # Choose Encoding encoding
