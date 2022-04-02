@@ -49,8 +49,8 @@ def results():
         LGBM = pickle.load(lgbm)
     with open("models/data_ver2/lightGBM.pkl", "rb") as lgbm2:
         LGBM2 = pickle.load(lgbm2)
-    with open("models/DNN1.h5", "rb") as dnn:
-        DNN = tf.keras.models.load_model(dnn)
+#     with open("models/DNN1.h5", "rb") as dnn:
+#         DNN = tf.keras.models.load_model(dnn)
 
     if encoding ==  1:
         # Getting Usage Level
