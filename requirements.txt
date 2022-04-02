@@ -1,4 +1,5 @@
-crypt
+asn1crypto
+cryptography
 distutils
 flask
 pandas
