@@ -1,6 +1,9 @@
 asn1crypto
 cryptography
-distutils
+docutils 
+ipython-genutils 
+distlib
+distributed
 flask
 pandas
 numpy
